@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.feedback_form{
+    background-image: linear-gradient(
+    to right,
+    rgb(0, 114, 66, 0.801) 0%,
+    rgb(0, 114, 66, 0.801)100%
+    );
+    /* Text color*/
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+}
+
+form{
+    padding: 200px;
+    margin: 50px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.form-group input, textarea{
+    width: 700px;
+    padding: 10px;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+textarea{
+    width: 700px;
+    height: 200px;
+}
+
+input.invalid{
+    border: 1px solid red;
+}
+
+.error-hint{
+    color: red;
+}
+
+button{
+    width: 720px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 114, 66, 0.801);
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+.thank-you{
+    padding: 40px;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+/* Responsive styles */
+
+
+@media screen and (max-width:1200px){
+    .form-group{
+        width:100%;
+        margin-left: -200px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    button{
+        width:100%;
+        margin-left: -170px;
+
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .form-group label{
+        width:100%;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .form-group input, textarea{
+        width:100%;
+        margin-left: 20px;
+
+        
+        width: 400px;
+
+
+    }
+}
+
+@media screen and (max-width:1200px){
+    .error-hint{
+        width:100%;
+        margin-left: 20px;
+        
+        width: 400px;
+
+
+    }
+}
+
+
+
+@media screen and (max-width:750px){
+    .form-group{
+        width:100%;
+        margin-left: -200px;
+    }
+}
+
+@media screen and (max-width:750px){
+    button{
+        width:200%;
+        margin-left: -170px;
+
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .form-group label{
+        width:100%;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .form-group input, textarea{
+        width:100%;
+        margin-left: 20px;
+        
+        width: 400px;
+
+
+
+    }
+}
+
+@media screen and (max-width:750px){
+    .error-hint{
+        width:100%;
+        margin-left: 20px;
+        
+        width: 400px;
+
+
+    }
+}
